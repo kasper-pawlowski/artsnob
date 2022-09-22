@@ -3,7 +3,7 @@ import React, { useRef } from 'react';
 import { Button } from './NextButton.styles';
 
 const NextButton = ({ nextAction, isSelected, bounds }) => {
-    const ref = useRef();
+    const ref = useRef(null);
 
     const handleMouseMove = (e) => {
         ref.current.style.transition = '';
