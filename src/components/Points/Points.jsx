@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import { Icon, Wrapper } from './Points.styles';
+import { Wrapper } from './Points.styles';
+import { FaTrophy } from 'react-icons/fa';
 
 const Points = ({ points, isResults }) => {
     const [storedPoints, setStoredPoints] = useState();
@@ -17,12 +18,12 @@ const Points = ({ points, isResults }) => {
 
     return location.pathname === '/results' && !points ? (
         <Wrapper isResults={isResults}>
-            <Icon />
+            <FaTrophy />
             <p>{storedPoints ? storedPoints : 0} points</p>
         </Wrapper>
     ) : (
         <Wrapper isResults={isResults}>
-            <Icon />
+            <FaTrophy />
             <p>{points ? points : 0} points</p>
         </Wrapper>
     );

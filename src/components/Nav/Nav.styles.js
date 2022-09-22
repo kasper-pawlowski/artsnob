@@ -16,4 +16,5 @@ export const Wrapper = styled.div`
 export const Logo = styled.p`
     font-weight: 800;
     font-size: calc(1vw + 1vh);
+    cursor: context-menu;
 `;

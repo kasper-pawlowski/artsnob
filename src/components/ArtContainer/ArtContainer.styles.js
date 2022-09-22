@@ -42,16 +42,7 @@ export const Img = styled(motion.img)`
     left: 0;
     width: 80%;
     scale: 0.8;
-    /* height: fit-content; */
     @media (max-width: 768px) {
         width: 100%;
     }
 `;
-
-// export const Img = styled(motion.img)`
-//     width: 80%;
-//     height: fit-content;
-//     @media (max-width: 768px) {
-//         width: 100%;
-//     }
-// `;

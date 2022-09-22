@@ -21,6 +21,7 @@ export const Wrapper = styled.div`
 export const Question = styled.h1`
     font-size: calc(1.4vw + 1.4vh);
     margin-bottom: 100px;
+    cursor: context-menu;
     @media (max-width: 1366px) {
         margin-bottom: 50px;
     }

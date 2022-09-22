@@ -1,4 +1,3 @@
-import { FaTrophy } from 'react-icons/fa';
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
@@ -12,9 +11,8 @@ export const Wrapper = styled.div`
     align-items: center;
     z-index: 1;
     ${({ isResults }) => isResults && `position: absolute; top: 40px;`}
+    cursor: context-menu;
     @media (max-width: 768px) {
         padding: 10px;
     }
 `;
-
-export const Icon = styled(FaTrophy)``;

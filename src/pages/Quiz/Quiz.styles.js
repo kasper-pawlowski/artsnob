@@ -6,6 +6,7 @@ export const Wrapper = styled(Div100vh)`
     overflow: hidden;
     background-color: ${({ color }) => color};
     position: relative;
+    transition: background-color 0.2s linear;
     @media (max-width: 768px) {
         flex-direction: column;
     }

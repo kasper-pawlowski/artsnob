@@ -9,7 +9,6 @@ export const Wrapper = styled.button`
     border: 1px solid #ffffff;
     border-radius: 100vw;
     font-size: calc(0.7vw + 0.7vh);
-    /* font-size: 0.8em; */
     font-weight: 600;
     background: none;
     cursor: ${({ isSelected }) => (isSelected ? 'context-menu' : 'pointer')};

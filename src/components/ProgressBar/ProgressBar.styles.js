@@ -9,6 +9,7 @@ export const Wrapper = styled.div`
     z-index: 3;
 
     p {
+        cursor: context-menu;
         @media (max-width: 768px) {
             font-size: 12px;
         }
